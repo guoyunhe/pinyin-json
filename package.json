@@ -4,22 +4,22 @@
   "description": "JSON data for Chinese/Hanyu Pinyin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch-hanzidb": "node fetch-hanzidb.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guoyunhe/pinyin-json.git"
   },
-  "keywords": [
-    "pinyin",
-    "hanyu",
-    "chinese"
-  ],
+  "keywords": ["pinyin", "hanyu", "chinese"],
   "author": "Guo Yunhe",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/guoyunhe/pinyin-json/issues"
   },
   "homepage": "https://github.com/guoyunhe/pinyin-json#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2"
+  }
 }
