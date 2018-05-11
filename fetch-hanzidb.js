@@ -69,6 +69,7 @@ function fetch_polyphone(index = 0) {
     })
     .catch(function(response) {
       console.log("Error while fetching data of " + hanzi);
+      fetch_polyphone(index + 1);
     });
 }
 
