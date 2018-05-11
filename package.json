@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/guoyunhe/pinyin-json.git"
   },
-  "keywords": ["pinyin", "hanyu", "chinese"],
+  "keywords": [
+    "pinyin",
+    "hanyu",
+    "chinese"
+  ],
   "author": "Guo Yunhe",
   "license": "GPL-3.0",
   "bugs": {
@@ -20,6 +24,7 @@
   "homepage": "https://github.com/guoyunhe/pinyin-json#readme",
   "devDependencies": {
     "axios": "^0.18.0",
-    "cheerio": "^1.0.0-rc.2"
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.10"
   }
 }
