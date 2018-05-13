@@ -1,8 +1,24 @@
 # pinyin-json
 
-JSON data for Chinese/Hanyu Pinyin. Only contains common characters so it is samll and fast for daily usage.
+JSON data for Chinese/Hanyu Pinyin. Only contains common characters so it is
+samll and fast for daily usage.
 
 JSON 格式的中文拼音数据。只包含常用汉字，因此小巧快速，适合日常使用。
+
+## Data Source
+
+1.  Hanzi & Pinyin data from [hanzidb](http://hanzidb.org/character-list/by-frequency).
+    Fetched on 2018-05-10.
+
+    汉字拼音数据来自 [hanzidb](http://hanzidb.org/character-list/by-frequency)。获取日期为
+    2018-05-10。
+
+2.  Dictionary data from [Chinese Wikipedia](https://zh.wikipedia.org/). Fetched
+    on 2018-05-13.
+
+    字典数据来自[中文维基百科](https://zh.wikipedia.org/). 获取日期为 2018-05-13。
+
+## JSON Files
 
 * Pinyin table 拼音表
 
