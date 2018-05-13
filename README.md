@@ -14,9 +14,9 @@ JSON 格式的中文拼音数据。只包含常用汉字，因此小巧快速，
     2018-05-10。
 
 2.  Dictionary data from [Chinese Wikipedia](https://zh.wikipedia.org/). Fetched
-    on 2018-05-13.
+    on 2018-05-01.
 
-    字典数据来自[中文维基百科](https://zh.wikipedia.org/). 获取日期为 2018-05-13。
+    字典数据来自[中文维基百科](https://zh.wikipedia.org/). 获取日期为 2018-05-01。
 
 ## JSON Files
 
